@@ -18,7 +18,7 @@ namespace OtobusUygulama
             InitializeComponent();
         }
         public string kad;
-        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\Alperen\\Documents\\Otobus.accdb");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Otobus.accdb");
         private void AdminPanel_Load(object sender, EventArgs e)
         {
             pictureBox1.BackColor = Color.Transparent;
