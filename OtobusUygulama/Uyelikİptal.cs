@@ -23,7 +23,7 @@ namespace OtobusUygulama
         {
             this.Close();
         }
-        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\Alperen\\Documents\\Otobus.accdb");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Otobus.accdb");
         private void Uyelikİptal_Load(object sender, EventArgs e)
         {
             label9.Text = kad6;
