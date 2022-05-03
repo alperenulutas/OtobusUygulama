@@ -18,7 +18,7 @@ namespace OtobusUygulama
             InitializeComponent();
         }
         public string kad4;
-        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\Alperen\\Documents\\Otobus.accdb");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Otobus.accdb");
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
