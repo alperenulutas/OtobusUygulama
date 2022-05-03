@@ -20,7 +20,7 @@ namespace OtobusUygulama
         public string kad1;
         string koltuk;
         
-        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\Alperen\\Documents\\Otobus.accdb");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Otobus.accdb");
         private void btnDon_Click(object sender, EventArgs e)
         {
             this.Close();
